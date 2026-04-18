@@ -16,5 +16,3 @@ async function fetchPosts():Promise<Post[]>{
 fetchPosts().then((posts) => {
   console.log(posts[0].title);
 });
-
-
